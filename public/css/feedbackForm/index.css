@@ -1,0 +1,39 @@
+.form-text-input {
+  padding: 10px 20px;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  background: #F9F9F9;
+  font-size: 14px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 65px;
+  background: #fff;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-block:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  margin-bottom: 10px;
+  color: #364350;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-title {
+  color: #364350;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-size: 35px;
+  text-align: center;
+}
+
